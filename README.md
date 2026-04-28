@@ -1,6 +1,6 @@
 # NASU Voice
 
-![説明](説明.png)
+![how-to-use](how-to-use.png)
 
 Groq の Whisper API を使った Windows 向け音声入力ツールです。  
 キーを押している間だけ録音し、離すと自動でテキストに変換してカーソル位置に貼り付けます。
