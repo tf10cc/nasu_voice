@@ -1,0 +1,9 @@
+nasu_config.json
+.nasu_voice.lock
+*.log
+__pycache__/
+*.pyc
+*.pyo
+dist/
+build/
+*.spec

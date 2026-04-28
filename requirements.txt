@@ -1,0 +1,6 @@
+groq
+sounddevice
+numpy
+scipy
+pyperclip
+pynput
