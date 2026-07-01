@@ -104,6 +104,12 @@ After uninstalling, the settings file (`nasu_config.json`) remains on your PC. Y
 
 ---
 
+## Changelog
+
+See [CHANGELOG_en.md](CHANGELOG_en.md) for release notes.
+
+---
+
 ## License
 
 © 2026 tf10cc. All rights reserved.
