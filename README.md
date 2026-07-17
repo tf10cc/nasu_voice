@@ -51,8 +51,8 @@ Nasu Voice は音声認識に Groq の Whisper API を使用しています
 
 ## インストール
 
-1. [こちら](https://github.com/tf10cc/nasu_voice/releases/tag/v1.1.0) から `Nasu_Voice_v1.1.0_Setup.exe` をダウンロードします
-2. `Nasu_Voice_v1.1.0_Setup.exe` を実行します
+1. [こちら](https://github.com/tf10cc/nasu_voice/releases/latest) から最新版のセットアップファイル（`Nasu_Voice_v*_Setup.exe`）をダウンロードします
+2. ダウンロードしたセットアップファイルを実行します
 3. 画面の指示に従ってインストールしてください
 4. インストール完了後、Nasu Voice が自動的に起動します
 5. 初回起動時に Groq API キーを設定してください
