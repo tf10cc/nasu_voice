@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.3.0 (2026-07-18)
+- The Settings screen title now shows the version number (e.g., Nasu Voice Settings - Ver.1.3.0)
+- The version number is now managed in a single place (`version.py`), referenced by both the Settings screen and the installer
+
 ## v1.2.0 (2026-07-17)
 - Settings screen now supports Japanese and English (follows the language selected in the installer)
 - Added a note on the installer's Welcome screen that the selected language also applies to the Settings screen
