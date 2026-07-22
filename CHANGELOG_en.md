@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.3.1 (2026-07-22)
+- Fixed an issue on low-resolution displays (e.g., 1366x768) where the "Save and Close" button on the Settings screen could not be reached
+- The Settings screen now auto-adjusts its height to the actual Windows work area, and switches to a vertically scrollable layout when the content doesn't fit
+- The Save button is now pinned to the bottom of the window so it stays reachable on any screen size
+
 ## v1.3.0 (2026-07-18)
 - The Settings screen title now shows the version number (e.g., Nasu Voice Settings - Ver.1.3.0)
 - The version number is now managed in a single place (`version.py`), referenced by both the Settings screen and the installer
