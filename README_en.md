@@ -28,7 +28,10 @@ Nasu Voice uses Groq's Whisper API for speech recognition.
 
 - You can get a free API key at: https://console.groq.com/
 - Groq offers a free tier. For typical voice input use, it is more than enough.
-  Please check Groq's website for the latest limits. (As of June 2026: 100,000 tokens/day)
+  Please check Groq's website for the latest limits. (As of September 2026: up to 28,800 seconds / 8 hours of audio per day)
+- AI Correction (the gpt-oss-120b model) also has its own free tier, which is more than enough for typical use.
+  Please check Groq's website for the latest limits. (As of September 2026: 200,000 tokens/day)
+  If you exceed the limit, AI Correction is simply skipped and the raw Whisper result is pasted instead — voice input itself keeps working without any issues.
 - No credit card required. Sign up with an email address or Google account.
 - **Your API key is stored only on your PC.** It is never sent to the developer.
 - Your voice audio is sent to Groq's servers for transcription. It is not sent to the developer.

@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.3.2 (2026-09-01)
+- Switched the AI Correction model from llama-3.3-70b-versatile (deprecated on Groq) to openai/gpt-oss-120b
+- Adjusted reasoning_effort="low" and max_completion_tokens=512 for the new reasoning-capable model, fixing empty responses and mid-sentence truncation
+- Added logging for empty AI responses (internal diagnostics only)
+
 ## v1.3.1 (2026-07-22)
 - Fixed an issue on low-resolution displays (e.g., 1366x768) where the "Save and Close" button on the Settings screen could not be reached
 - The Settings screen now auto-adjusts its height to the actual Windows work area, and switches to a vertically scrollable layout when the content doesn't fit
