@@ -1,5 +1,9 @@
 # 更新履歴
 
+## v1.4.0（2026-09-05）
+- 音声認識モデルを、whisper-large-v3-turboから、より精度の高いwhisper-large-v3へ切替
+- 無料枠（リクエスト数・音声秒数の上限）はturboと同一のため、通常利用時の料金負担は変わらない
+
 ## v1.3.2（2026-09-01）
 - LLM補正のモデルを、Groqで廃止済みのllama-3.3-70b-versatileから、openai/gpt-oss-120bへ切替
 - 新モデルはreasoning機能を持つため、reasoning_effort="low"・max_completion_tokens=512に調整し、無応答・出力の途中切れを防止

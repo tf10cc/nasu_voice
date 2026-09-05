@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.4.0 (2026-09-05)
+- Switched the speech recognition model from whisper-large-v3-turbo to the more accurate whisper-large-v3
+- Free-tier limits (request count and audio seconds) are identical to turbo, so normal usage incurs no extra cost
+
 ## v1.3.2 (2026-09-01)
 - Switched the AI Correction model from llama-3.3-70b-versatile (deprecated on Groq) to openai/gpt-oss-120b
 - Adjusted reasoning_effort="low" and max_completion_tokens=512 for the new reasoning-capable model, fixing empty responses and mid-sentence truncation
