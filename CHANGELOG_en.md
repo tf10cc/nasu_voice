@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.5.0 (2026-10-07)
+- Added VAD (Voice Activity Detection), which extracts only the speech parts of a recording
+- Silent recordings and silent parts are no longer sent to speech recognition (a countermeasure against text that was never spoken)
+- Uses Silero VAD. The model file is bundled, so the setup file is about 10 MB larger
+- If VAD is unavailable, the app automatically falls back to the previous volume-based check
+
 ## v1.4.0 (2026-09-05)
 - Switched the speech recognition model from whisper-large-v3-turbo to the more accurate whisper-large-v3
 - Free-tier limits (request count and audio seconds) are identical to turbo, so normal usage incurs no extra cost
